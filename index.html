@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html>
-
+<head>
 <title>1103524</title>
-<head></head>
 <style> 
 div.a{
   width: 100px;
   height: 100px;
-  background: yellow;
-  transition-property: width;
-  transition-duration: 1s;
+  background: pink;
+  transition: width 5s;
 }
 div.b{
   width: 100px;
   height: 100px;
   background: pink;
   transition-property: width,height;
-  transition-duration: width 1s,height 1s;
+  transition-duration: width 5s,height 5s;
 }
 div.a:hover {
-  width: 500px;
+  width: 300px;
 }
 div.b:hover {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
 }
-</style>
+  </style>
+  </head>
 <body>
-
 <div class="a">1</div>
 <br>
 <div class="b">2</div>
