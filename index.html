@@ -1,44 +1,158 @@
-
 <!DOCTYPE html>
 <html>
-<title>menu</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+  <title>biker</title>
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-
-<!-- Sidebar -->
-<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
-  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-  <a href="https://masa19cy.github.io/HW3524/" class="w3-bar-item w3-button">Home</a>
-  <a href="#" class="w3-bar-item w3-button">Dashboard</a>
-  <a href="https://masa19cy.github.io/3524/" class="w3-bar-item w3-button">about</a>
-  <a href="#" class="w3-bar-item w3-button">contact</a>
-
-</div>
-
-<!-- Page Content -->
-<div class="w3-teal">
-  <button class="w3-button w3-teal w3-xlarge w3-black" onclick="w3_open()">二</button>
-  <div class="w3-container w3-black">
-    <h1>Sidebar</h1>
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="https://tinoto.net/wp-content/uploads/2020/11/giaxemotobmw.png" alt="">
+    </a>
+    <nav class="navbar">
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Bikes">Bikes</a>
+      <a href="#Showroom">Showroom</a>
+      <a href="#Question">Question</a>
+    </nav>
+  </header>
+  <section class="Home" id="Home">
+    <h2 class="heading">
+      Home
+    </h2>
+    <img src="https://i.pinimg.com/originals/5b/b4/7b/5bb47bb19cc3d3c790f42291212f7f0a.gif">
+    </div>
+  </section>
+  <section class="About" id="About">
+    <h1 class="heading">
+      About Us  
+    </h1>
+    <div class="row">
+      <div class="content">
+        <p>In Japan, Suzuki is the fourth largest automobile manufacturer in Japan, and Suzuki's automobile product line is mainly known for small cars and small and medium-sized off-road vehicles called "light automatic cars" (K-Car) in Japan. In the international market, Suzuki Motorcycle is the third largest locomotive manufacturer in the world, and Suzuki Motor is the largest car brand in emerging market countries such as India and Southeast Asia, and is also the company before the American auto giant General Motors Group (GM) One of the partners owns several cars and off-road vehicles, which are shared with Chevrolet, one of GM's brands.</p>
+        <p>Suzuki Motors' investment in the Chinese market began in 1993 with Chongqing Changan Automobile Co., Ltd. (50% of the shares), Suzuki Corporation of Japan (40% of the shares), and Suzuki (China) Investment Co., Ltd. Established Changan Suzuki Automobile Co., Ltd., and then in June 1995, jointly invested and established Changhe Suzuki Automobile with Jiangxi Changhe Automobile, becoming the first Sino-foreign joint venture in Jiangxi Province. After a quarter of a century of operation, Suzuki finally established in 2018 In June 2019, it announced that it would completely withdraw from the Chinese market.</p>
+        <p>On September 5, 2018, Changan Automobile, Suzuki Corporation and Suzuki Investment Co., Ltd. reached an agreement to acquire 40% equity and 10% equity of Changan Suzuki held by Suzuki Corporation and Suzuki Corporation’s Chinese branch respectively at a price of 1 yuan. The announcement shows , Changan Suzuki's book value of total assets on April 30, 2018 was approximately RMB 4.53 billion, book value of total liabilities was approximately RMB 4.8 billion, and book value of net assets was approximately negative RMB 270 million</p>
+      </div>
+      <div class="image">
+        <img src="MotorOne.jpg" alt="">
+        <img src="MotorTwo.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="Bikes" id="Bikes">
+      <h1 class="heading">
+        Available Models
+      </h1>
+      <div class="box-container">
+        <div class="box">
+          <h2>BMW S 1000 RR</h2>
+          <img src="https://www.hymmoto.tw/wp-content/uploads/2022/09/white-1024x683.jpg" alt="">
+          <h3>$899000</h3>
+          <button class="button1">Buy</button>
+        </div>
+        <div class="box">
+          <h2> BMW R 1250 R</h2>
+          <img src="https://www.supermoto8.net/images/data/P90483750_lowRes_bmw-r-1250-r-icegrey.jpg" alt="">
+          <h3>$$819,000</h3>
+          <button class="button1">Buy</button>
+        </div>
+        <div class="box">
+          <h2>BMW M 1000 RR</h2>
+          <img src="https://cdp.azureedge.net/products/USA/BM/2022/MC/SUPERSPORT/M_1000_RR/50/ITE_-_M_MOTORSPORT_WITH_M_COMPETITION_PACKAGE/2000000001.jpg" alt="">
+          <h3>1,529,000</h3>
+          <button class="button1">Buy</button>
+        </div>
+        <div class="box">
+          <h2>BMW  S 1000 R</h2>
+          <img src="https://cdp.azureedge.net/products/USA/BM/2023/MC/BMWS/S_1000_R/50/BLACK_STORM_METALLIC/2000000005.jpg" alt="">
+          <h3>$719,000</h3>
+          <button class="button1">Buy</button>
+        </div>
+        <div class="box">
+          <h2>BMW R nineT</h2>
+          <img src="https://autos.yahoo.com.tw/p/r/w880/bike-trim/May2019/dd3890e119a0ef61255019d637c18414.jpeg" alt="">
+          <h3>$689,000</h3>
+          <button class="button1">Buy</button>
+        </div>
+        <div class="box">
+          <h2>Aprilia RSV4 1100</h2>
+          <img src="https://image.ruten.com.tw/g1/3/0a/db/22109048361691_443.jpg" alt="">
+          <h3>$1,049,000</h3>
+          <button class="button1">Buy</button>
+        </div>
+        <div class="box">
+          <h2> Kawasaki Ninja ZX-10R</h2>
+          <img src="https://autos.yahoo.com.tw/y/r/w880/iw/MMT/bike/123d4bd4078ba4dedebaac56d3bd3089_1200.jpg" alt="">
+          <h3>$938,000</h3>
+          <button class="button1">Buy</button>
+        </div>
+          <div class="box">
+          <h2>Kawasaki Z H2</h2>
+          <img src="https://www.mit-machining.com/store_image/kawasakimotor/Q1622109999552.jpg" alt="">
+          <h3>$898,000</h3>
+          <button class="button1">Buy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Bikes" id="Showroom">
+    <h1 class="heading">
+      Showroom
+    </h1>
+    <div class="box-container">
+      <div class="box">
+        <h2>BMW Motorrad Taipei 台北意德</h2>
+        <img src="https://lh3.googleusercontent.com/p/AF1QipMi6sjOUoArb55ucqDmxlFec0kz-4XWgeUFQecV=w1080-h608-p-no-v0" alt="">
+        <h3>Contact:02 2790 5500</h3>
+      </div>
+      <div class="box">
+        <h2>Kawasaki-PLAZA奇司</h2>
+        <img src="https://www.motorcycle-union.com/images/items/41/208825_1.webp" alt="">
+        <h3>Contact:02 2689 0188</h3>
+      </div>
+      <div class="box">
+        <h2>Aprilia 總代理 摩托之星</h2>
+        <img src="https://img.webike.tw/moto_profile/157857a9-4f5e-4a66-b372-89be758f672c.jpg" alt="">
+        <h3>Contact:02 2792 4208</h3>
+      </div>
+    </div>
+  </section>
+  <section class="Question" id="Question">
+    <h1 class="heading">
+      Question
+    </h1>
+    <div class="box-container">
+      <div class="box2">
+          <input id="credit-card-mask" type="text" maxlength="12" placeholder="input mask number 12 digits" autofocus/> 
+          <div id="result">
+              <div id="oninput-result" style="z-index:10;"></div>     
+          </div>        
+      </div>
   </div>
-</div>
-
-<img src="https://images.squarespace-cdn.com/content/v1/5f908ef54529ee3dd61a2b6d/1609055261067-UH7QGQ0CZU1Z4C4S5VJ3/Signature%2BTV%2B1.1%2B2021.jpg.jpg?format=2500w" alt="dessert" style="width:100%">
-
-<div class="w3-container ">
-
-</div>
-
-<script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
-     
+  <script type="text/javascript">
+      var input = document.getElementById('credit-card-mask'),oldValue,newValue,
+          difference = function(value1, value2) {
+          var output = [];
+          for(i = 0; i < value2.length; i++) {
+              if(value1[i] !== value2[i]) {
+              output.push(value2[i]);
+              }
+          }
+          return output.join("");
+          },
+          keyDownHandler = function(e) {
+          oldValue = input.value;
+          },
+          inputHandler = function(e) {
+          document.getElementById("oninput-result").innerHTML = '$'+input.value;
+          }
+      ;
+      input.addEventListener('keydown', keyDownHandler);
+      input.addEventListener('input', inputHandler);
+  </script>
+  </section>
 </body>
-</html> 
+</html>
